@@ -1,11 +1,8 @@
-print('   ','**********Driving Costs**********')
+mpg = float(input())
+ppg = float(input())
 
-miles = float(input('How many miles driven? '))
-mpg = float(input('How many miles per gallon does your car get? '))
-ppg = float(input('How much do you pay for a gallon of gas? '))
+var1 = (20 / mpg) * ppg
+var2 = (75 / mpg) * ppg
+var3 = (500 / mpg) * ppg
 
-gasCost = (miles / mpg) * ppg
-
-print('It will take $', ('{:.2f}'.format(gasCost)), 'to drive ', miles, 'miles.')
-
-print(f'{miles:.2f} {mpg:.2f} {ppg:.2f}')
+print(f'{var1:.2f} {var2:.2f} {var3:.2f}')
