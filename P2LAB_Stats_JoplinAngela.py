@@ -1,4 +1,3 @@
-
 # Simple Statistics program
 # 10/3/2022
 # CTI-110 P2LAB - Simple Statistics
