@@ -7,7 +7,7 @@
 # create var and get user input for budget, destination, gas, accomodatyions and food
 # add expenses and subtract that from budget to show remaining budget balance
 # display destination and var values for user and the remaining balance
-# revise P1HW2 to reflect float values and dollar signs for monetary variables
+# revise P1HW2 to reflect float values and dollar signs for aligned monetary variables
 
 
 
