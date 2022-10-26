@@ -19,8 +19,8 @@ Mod6 = float(input('Enter grade for Module 6:  '))
 grades = [Mod1, Mod2, Mod3, Mod4, Mod5, Mod6]
 minGrd = min(grades)
 maxGrd = max(grades)
-sumGrd = Mod1 + Mod2 + Mod3 + Mod4 + Mod5 + Mod6
-avgGrd = sumGrd / 6
+sumGrd = sum(grades)
+avgGrd = sumGrd/len(grades)
 
 #output
 print()
