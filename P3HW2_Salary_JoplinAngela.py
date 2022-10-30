@@ -28,7 +28,6 @@ else:
 gross = otPay + regPay
     
 #output
-print()
 print('**************************************************')
 print('Employee Name:  ',name)
 print()
