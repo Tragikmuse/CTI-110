@@ -3,8 +3,9 @@
 # Angela Joplin
 # 10/10/2022
 
-# Write program to determine if a given year is or is not a leap year
-# based on whether its divisible by 4 and is a century divisible by 400
+# Prompt user to input a year
+# Determine if that year is a leap year based on being divisible by 4 and if the year is a century, if its divisible by 100 or 400
+# Display whether or not the input is a leap year
 
    
 
