@@ -39,10 +39,9 @@ for i in range(8):
     t.bk(50)
     t.right(90)
     t.forward(50)
-    t.bk(50)
-    t.left(45)
-    t.bk(50)
-    t.left(45)
+    for i in range(2):
+        t.bk(50)
+        t.left(45)
 
 t.left(90)
     
