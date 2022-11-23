@@ -17,3 +17,21 @@ days_in_feb(user_year)
 
 # do i loop for multiple inputs?
 
+'''
+def days_in_feb(user_year):
+    if (user_year % 4) == 0:
+        if (user_year % 100) == 0:
+            if (user_year % 400) == 0:
+                is_leap_year = True
+            else:
+                is_leap_year = False
+        else:
+            is_leap_year = True  
+    else:
+        is_leap_year = False
+
+    if is_leap_year == True:    
+        print(f'{user_year} has 29 days in February.')
+    else:
+        print(f'{user_year} has 28 days in February.')
+'''
