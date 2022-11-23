@@ -1,3 +1,8 @@
+# CTI-110
+# P5LAB1 - Leap Year
+# Angela Joplin
+# 11/21/2022
+
 #user_year = int(input('Enter year to determine the number of days in February that year: '))
 
 user_year = int(input())
@@ -10,5 +15,5 @@ def days_in_feb(user_year):
 
 days_in_feb(user_year)    
 
-
+# do i loop for multiple inputs?
 
