@@ -22,16 +22,17 @@ def days_in_feb(user_year):
     if (user_year % 4) == 0:
         if (user_year % 100) == 0:
             if (user_year % 400) == 0:
-                is_leap_year = True
+                return True
             else:
-                is_leap_year = False
+                return False
         else:
-            is_leap_year = True  
+            return True
     else:
-        is_leap_year = False
+        return False
 
-    if is_leap_year == True:    
+
+if (days_in_feb(user_year)):
         print(f'{user_year} has 29 days in February.')
-    else:
+else:
         print(f'{user_year} has 28 days in February.')
 '''
