@@ -3,7 +3,36 @@
 # CTI-110 P5HW2 - Math Quiz
 # Angela Joplin
 #
+def display_menu():
+    print('MAIN MENU')
+    print('********************************')
+    print('1. Adding Random Numbers')
+    print('2. Subtracting Random Numbers')
+    print('3. Exit')
+    print()
+    
+def add_nums():
+    
+def sub_nums():
+    
+#Main
+stop = False
 
+While stop == False
+    display_menu()
+    user_selection = input('Please choose one of the menu options: ')
+    
+    if user_selection == '1':
+        add_nums(random.randint(1,100), random.randint(1,100))
+    elif user_selection == '2':
+        sub_nums(random.randint(1,100), random.randint(1,100))
+    elif user_selection == '3': 
+        stop = True
+    else:
+        print('not a valid selection!')
+        
+        
+        
 print('Welcome to Math Quiz')
 print()
 print()
